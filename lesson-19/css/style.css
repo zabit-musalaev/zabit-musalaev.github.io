@@ -544,16 +544,14 @@ body {
   padding: 1.214rem 2.6rem; }
 
 .design-project--black {
-  position: relative;
-  background: #131313; }
+  position: relative; }
   .design-project--black::before {
     content: '';
     position: absolute;
+    background: #131313 50%;
     width: 100%;
-    height: 50%;
-    top: 0;
-    left: 0;
-    background: #fff; }
+    bottom: 0;
+    height: 50%; }
 
 .section__subtitle {
   margin: 0 auto;
@@ -629,4 +627,18 @@ body {
 
 @media screen and (max-width: 576px) {
   .hero__scroll-down {
-    display: none; } }
+    display: none; }
+  .design-project--black {
+    position: relative; }
+    .design-project--black::before {
+      content: '';
+      position: absolute;
+      background: #131313;
+      width: 100%;
+      bottom: 0;
+      height: 100%;
+      z-index: -1; }
+  .design-project--heading-title {
+    color: #fff; }
+  .subtitle__text {
+    color: #fff; } }
