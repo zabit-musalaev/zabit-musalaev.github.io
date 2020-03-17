@@ -817,6 +817,8 @@ body {
     margin-bottom: 5rem; }
   .card__text {
     margin-left: 0; }
+  .section-title__word::after {
+    display: none; }
   .section__subtitle {
     width: 100%; }
   .projects {
