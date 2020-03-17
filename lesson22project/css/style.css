@@ -638,8 +638,9 @@ body {
   position: relative; }
   .projects__col-50 {
     position: absolute;
-    top: -2.3rem;
     right: 0; }
+  .projects__heading {
+    margin-top: 0; }
 
 .types__section-title {
   margin-bottom: 2rem; }
